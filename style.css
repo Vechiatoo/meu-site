@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+body {
+    background-color: rgb(190, 190, 190);
+}
+
+.caixa {
+
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    
+}
+
+.caixa h2 {
+    margin: 14px 0px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.tela {
+
+    width: 340px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.resultado {
+    text-align: right;
+    margin-right: 5px;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.botoes {
+    width: 360px;
+    margin: 50px auto;
+
+}
+
+.botao {
+    width: 77.8px;
+    height: 77.8px;
+    margin: 0px 0px 15px 4px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 40px;
+    background-color: #1F1F1F;
+    color: white;
+    cursor: pointer;
+}
+
+.zero {
+    width: 170.6px;
+}
+
+.recebe {
+    height: 170.6px;
+    right: 24px;
+    position: absolute;
+}
+
