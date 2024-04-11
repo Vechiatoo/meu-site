@@ -22,8 +22,6 @@ botoes.forEach(botao => {
         console.log("Resultado:", resultado);
         // Substitui o conteúdo da div por uma imagem
         resultadoDiv.innerHTML = '<img src="cc1785991065454291f79f04d3d66377b861e460_full.jpg" alt="Imagem" width="102%" height="81px" style="border-radius: 10px">';
-        caixas.style.backgroundImage = 'url("cc1785991065454291f79f04d3d66377b861e460_full.jpg")'
-        caixas.style.backgroundSize = '800px'
         // Ajusta o tamanho da fonte proporcionalmente ao tamanho da div
         ajustarTamanhoFonte(resultadoDiv);
         // Limpa a expressão
